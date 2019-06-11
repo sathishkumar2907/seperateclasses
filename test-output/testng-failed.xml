@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tvisha1.Test">
+        <methods>
+          <include name="quit"/>
+          <include name="test1"/>
+          <include name="tvisha1"/>
+        </methods>
+      </class> <!-- com.tvisha1.Test -->
+      <class name="com.tvisha1.Test3">
+        <methods>
+          <include name="test2"/>
+          <include name="proposal_met"/>
+          <include name="alerts_admin"/>
+          <include name="quit"/>
+          <include name="test1"/>
+          <include name="tvisha1"/>
+        </methods>
+      </class> <!-- com.tvisha1.Test3 -->
+      <class name="com.tvisha1.Test2">
+        <methods>
+          <include name="test2"/>
+          <include name="proposal_met"/>
+          <include name="quit"/>
+          <include name="test1"/>
+          <include name="tvisha1"/>
+        </methods>
+      </class> <!-- com.tvisha1.Test2 -->
+      <class name="com.tvisha1.Test1">
+        <methods>
+          <include name="test2"/>
+          <include name="quit"/>
+          <include name="test1"/>
+          <include name="tvisha1"/>
+        </methods>
+      </class> <!-- com.tvisha1.Test1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
